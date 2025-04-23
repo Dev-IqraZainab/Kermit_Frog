@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(#89cff0, #ffffff);
+  font-family: "Arial", sans-serif;
+}
+
+#musicButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#musicButton:hover {
+  background-color: #ff1493;
+}
+
+/* body {
+  margin: 0;
+}
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+} */
